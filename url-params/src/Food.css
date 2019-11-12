@@ -1,0 +1,10 @@
+.Food {
+   display: flex;
+   flex-direction: column;
+   width: 90%;
+   margin: auto;
+}
+
+.Food-img {
+   width: 900px;
+}
