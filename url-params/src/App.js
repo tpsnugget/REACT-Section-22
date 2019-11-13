@@ -11,7 +11,7 @@ function App() {
       <Switch>
         <Route exact path="/food/:name" render={(routeProps) => <Food {...routeProps} />} />
         <Route exact path="/food/:foodName/drink/:drinkName" component={Meal} />
-        <Route exact path="/" render={() => <FoodSearch />} />
+        <Route exact path="/" component={FoodSearch} />
         <Route render={() => <h1>404 Error Not Found</h1>} />
       </Switch>
     </div>
