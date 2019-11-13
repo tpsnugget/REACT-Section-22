@@ -1,0 +1,10 @@
+.Meal {
+   display: flex;
+   flex-direction: column;
+   width: 90%;
+   margin: auto;
+}
+
+.Meal-food-img, .Meal-drink-img {
+   width: 700px;
+}
